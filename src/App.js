@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Book } from './components/Book';
 import { Header } from './components/Header';
+
 import 'jquery';
 import 'popper.js';
 import 'bootstrap';
@@ -14,6 +15,7 @@ class App extends Component {
         <h2>Current Book</h2>
         <Book
           title="Lord of Shadows"
+          image="LOS-CC"
           author="Cassandra Clare"
           description="Shadowhunter Novel, Dark Artifacts Book 2, Emma and Julian"
         />

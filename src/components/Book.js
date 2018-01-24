@@ -7,14 +7,18 @@ export class Book extends Component {
 
   render() {
     return (
-      <div className="Book">
-        <div className="title">
+      <div className="book">
+        <img
+          className="book_img"
+          src={require('../assets/images/books/' + this.props.image + '.jpg')}
+        />
+        <div className="book_title">
           <h1>{this.props.title}</h1>
         </div>
-        <div className="author">
+        <div className="book_author">
           <h2>{this.props.author}</h2>
         </div>
-        <div className="description">
+        <div className="book_description">
           <p>{this.props.description}</p>
         </div>
       </div>
