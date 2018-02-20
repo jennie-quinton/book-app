@@ -1,0 +1,14 @@
+/* BOOK CSS */
+.book {
+  background-color: #eee;
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+}
+
+.book_img {
+  width: 200px;
+  height: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
