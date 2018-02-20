@@ -9,7 +9,7 @@ export class Header extends Component {
   render() {
     return (
       <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
           <Icon name="book" />
           &nbsp;Reading List
         </a>
