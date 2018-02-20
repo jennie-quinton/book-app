@@ -11,7 +11,7 @@ export class Book extends Component {
         <img
           className="book-img"
           alt="cover of book"
-          src={require('../assets/images/books/' + this.props.image + '.jpg')}
+          src={require(`../assets/images/books/${this.props.image}.jpg`)}
         />
         <div className="book-title">
           <h1>{this.props.title}</h1>
