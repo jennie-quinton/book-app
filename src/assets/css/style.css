@@ -5,10 +5,17 @@
   text-align: center;
   padding: 10px;
 }
+.book-img {
+  width: auto;
+  height: 300px;
+}
 
-.book_img {
-  width: 200px;
-  height: auto;
+.books-list {
+  display: block;
+}
+.books-list-item {
+  display: inline-block;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

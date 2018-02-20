@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Lord of Shadows",
+    "image": "LOS-CC",
+    "author": "Cassandra Clare",
+    "description": "Shadowhunter Novel, Dark Artifacts Book 2, Emma and Julian",
+    "current": false
+  },
+  {
+    "title": "Clockwork Angel",
+    "image": "CA-CC",
+    "author": "Cassandra Clare",
+    "description":
+      "Shadowhunter Novel, The Infernal Devices Book 1, Tessa, Will and Jem",
+    "current": true
+  }
+]
