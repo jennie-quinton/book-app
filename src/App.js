@@ -8,13 +8,7 @@ class App extends Component {
     const booksHtml = booksData.map(book => {
       return (
         <li className="books-list-item" key={book.image}>
-          <Book
-            title={book.title}
-            image={book.image}
-            author={book.author}
-            description={book.description}
-            current={book.current}
-          />
+          <Book {...book} />
         </li>
       );
     });
